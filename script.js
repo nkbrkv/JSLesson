@@ -1,6 +1,6 @@
 "use strict";
 
-let a = 23;
+let a = 22;
 
 console.log(a);
 
