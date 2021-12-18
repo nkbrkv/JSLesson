@@ -12,8 +12,6 @@ const john = {
     damage: 200,
 };
 
-john.__proto__ = soldier;
-
 console.dir(john);
 
 // let a = [1, 2, 4, 5],
