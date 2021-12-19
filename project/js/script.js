@@ -73,14 +73,14 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', event => {
 
         event.preventDefault();
-        
+
         if (input.value) {
             movieDB.movies.push(input.value);
             sortArray(movieDB.movies);
             updateListOfFilms(movieDB.movies, list);
         }
 
-        event.target.reset();        
+        event.target.reset();
 
     });
 
